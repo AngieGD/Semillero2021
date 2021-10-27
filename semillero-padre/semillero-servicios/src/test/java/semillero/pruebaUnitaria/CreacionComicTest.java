@@ -129,6 +129,13 @@ public class CreacionComicTest {
 		log.info(":::::::::::::::::::::::::::: INICIAN PRUEBAS UNITARIAS :::::::::::::::::::::::::::: ");
 	}
 	
+	/**
+	 * 
+	 * Metodo encargado de realizar prueba a los comics activos 
+	 * <b>Caso de Uso</b>
+	 * @author Angie
+	 *
+	 */
 	@Test 
 	public void validarActivos() {
 		log.info("Inicia ejecucion del metodovalidarActivos()");
@@ -156,35 +163,7 @@ public class CreacionComicTest {
 	
 	
 	
-	/**
-	 * 
-	 * Metodo encargado de compilar 
-	 * <b>Caso de Uso</b>
-	 * @author Angie
-	 * 
-	 * @param args
-	 */
-	public static void main(String[] args)
-	{
-		//crear comics
-		ArrayList<ComicDTO> lista = crearcomics();
-		ArrayList<ComicDTO> inactivos  = comicInactivo(lista);
 	
-		/*
-		for (int i = 0; i < lista.size(); i++) {
-			
-			System.out.println(lista.get(i).getNombre());
-
-		}
-		
-		
-		for(ComicDTO comic : lista) {
-			System.out.println(comic.getNombre());
-			
-		}
-	*/
-		
-	}	
 	
 	
 	
